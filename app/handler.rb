@@ -1,7 +1,7 @@
 class Handler 
   def default 
     { 
-      "service" => "playservice",
+      "service" => "cicdlearning",
       "version" => "1.0.0",
       "status" => "supported"
     }
