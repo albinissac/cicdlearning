@@ -1,2 +1,2 @@
-require './app/playservice'
+require './app/cicdlearning'
 run Sinatra::Application
