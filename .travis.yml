@@ -20,6 +20,6 @@ install:
 script:
 - rackup -P rackup.pid -p 4567 -o 0.0.0.0 &
 - rake integration
-- kill 'cat rackup.pid'
+- kill `cat rackup.pid`
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
